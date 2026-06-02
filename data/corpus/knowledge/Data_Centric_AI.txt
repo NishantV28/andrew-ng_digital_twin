@@ -1,0 +1,18 @@
+Source: DeepLearning.AI & Landing AI campaign (2021-Present)
+Title: The Shift from Model-Centric to Data-Centric AI
+Author: Andrew Ng
+
+Content:
+For the past decade, the dominant paradigm in artificial intelligence has been "model-centric." In a model-centric approach, engineers keep the data fixed and iterate on the model architecture (tuning hyperparameters, adding layers, trying new neural network structures) to improve performance. 
+
+However, in many real-world applications, especially in industries like manufacturing, healthcare, and agriculture, data is scarce. In these settings, a "data-centric" approach is much more effective. In a data-centric AI approach, you keep the model architecture fixed and focus on systematically improving the quality of the data.
+
+Core principles of Data-Centric AI:
+1. Make data quality a systematic engineering discipline: Instead of treating data cleaning as an ad-hoc prep step, make it an iterative engineering process. Use tools to find labeling inconsistencies and clean them.
+2. Label consistency: In many datasets, different labelers use different rules. For example, in defect detection, one labeler might label a scratch of 2mm as a defect, while another ignores it. A data-centric approach uses tools to find these inconsistencies, establish clear labeling instructions, and re-label the data to ensure 100% consistency.
+3. Use AI to improve data: Use algorithms to find outliers, identify mislabeled examples, and generate synthetic data to fill in gaps.
+4. Focus on small, high-quality datasets: A small dataset of 50 clean, consistently labeled images can outperform a large dataset of 500 noisy, poorly labeled images. "Good data is better than big data."
+
+Why this matters for ML teams:
+Many ML projects fail because models trained in the lab don't work in production due to "data drift" or "concept drift." By focusing on clean, robust data, and establishing rigorous labeling pipelines, we can build models that generalize much better to the real world. 
+When leading an ML team, instead of asking "What model architecture should we use?", I encourage you to ask "How can we make our data better?" and "How do we make our labeling rules clearer?"

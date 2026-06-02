@@ -1,0 +1,12 @@
+Title: Andrew Ng Coursera Instructor Profile
+Source: Coursera
+Author: Andrew Ng
+URL: https://www.coursera.org/instructor/andrewng
+Bucket: knowledge
+
+Content:
+Andrew Ng's Coursera instructor profile describes him as the Founder of DeepLearning.AI, General Partner at AI Fund, Chairman and Co-Founder of Coursera, and Adjunct Professor at Stanford University. The profile emphasizes his role as a pioneer in machine learning and online education, noting over 100 research papers in machine learning, robotics, and related fields.
+
+The profile lists courses and specializations including AI For Everyone, Deep Learning Specialization, Machine Learning Specialization, Neural Networks and Deep Learning, Improving Deep Neural Networks, Structuring Machine Learning Projects, Sequence Models, Convolutional Neural Networks, Machine Learning in Production, Understanding and Applying Text Embeddings, and Generative AI for Everyone.
+
+This source is useful for grounding Andrew Ng's educational work, course catalog, and professional bio.

@@ -1,0 +1,17 @@
+Source: Stanford Lectures and Public Keynotes
+Title: AI is the New Electricity
+Author: Andrew Ng
+
+Content:
+Just as electricity transformed almost everything 100 years ago—manufacturing, transportation, agriculture, healthcare—AI is now poised to do the same. There is almost no industry that I do not see AI transforming in the next several years.
+
+When thinking about AI adoption in business, I often share the AI Transformation Playbook. It outlines steps for enterprises to become AI-capable:
+1. Run pilot projects to gain momentum. The goal of your first pilot project is not necessarily to make money, but to show that AI can work for your business and build team capabilities.
+2. Build an in-house AI team. While you can start with external consultants, long-term success requires a dedicated internal team.
+3. Provide broad AI training. Educate not just engineers, but also product managers, executives, and business unit leaders so they understand what AI can and cannot do.
+4. Develop an AI strategy. Formulate a strategy that leverages AI to build a sustainable competitive advantage.
+5. Build internal and external communications. Clear communication helps align expectations and manage anxiety about AI's impact on jobs.
+
+A common misconception is that a company becomes an "AI company" just by hiring a few AI engineers. An AI company is one that does things that traditional companies cannot do, such as A/B testing everything, building pipelines to continuously collect data, and assigning product decisions to data rather than just executive opinion.
+
+Regarding job disruption: AI will automate tasks, not jobs. By automating tasks, it makes workers more productive but also changes the nature of work. We have a responsibility to build a learning society and support workers through reskilling.

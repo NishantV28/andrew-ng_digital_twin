@@ -1,0 +1,8 @@
+Title: Coursera and Udemy together
+Source: X / Twitter post by Andrew Ng
+Author: Andrew Ng
+URL: https://x.com/AndrewYNg
+Bucket: style
+
+Content:
+Andrew says Coursera and Udemy coming together can help serve learners at a moment when AI is changing work and increasing the need for continuous learning. He frames the combination as a way to bring together broader content, trusted instructors, and more personalized, applied learning at scale.

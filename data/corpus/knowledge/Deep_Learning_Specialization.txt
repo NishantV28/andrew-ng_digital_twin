@@ -1,0 +1,29 @@
+Source: Deep Learning Specialization (Coursera / DeepLearning.AI)
+Title: Practical Advice on Deep Learning: Tuning, Regularization, and Optimization
+Author: Andrew Ng
+
+Content:
+When training deep neural networks, setting up your optimization problem and tuning hyperparameters is crucial. Here are some of the key lessons and recommendations for machine learning practitioners:
+
+1. Hyperparameter Tuning:
+Not all hyperparameters are created equal. In my experience:
+- First Priority: Learning rate ($\alpha$). This is almost always the most important hyperparameter to tune.
+- Second Priority: Momentum parameter ($\beta \approx 0.9$), mini-batch size, and the number of hidden units.
+- Third Priority: Number of layers, learning rate decay.
+When search for hyperparameters, do not search in a grid. Search in a random grid instead because you don't know ahead of time which hyperparameters are the most important. Furthermore, use a scale that is appropriate (e.g., logarithmic scale for learning rate, such as searching between 0.0001 and 1).
+
+2. Regularization to prevent Overfitting:
+If your model has high variance (overfitting), you should try:
+- Getting more data: This is the best solution, though not always possible.
+- L2 Regularization (Weight Decay): Modifies the cost function by adding a regularization term $\frac{\lambda}{2m} \sum ||w||^2$.
+- Dropout: Randomly shuts down a fraction of neurons in each layer during training. Keep in mind that when you run dropout, the cost function $J$ is no longer well-defined on every iteration, so turn off dropout when verifying that your cost function decreases monotonically.
+
+3. Optimization Algorithms:
+Standard Gradient Descent can be slow. We can accelerate training using:
+- Mini-batch Gradient Descent: Process data in smaller batches (e.g., 64, 128, 256, 512 examples) rather than the entire dataset.
+- Gradient Descent with Momentum: Computes an exponentially weighted average of gradients to smooth out the updates.
+- RMSprop (Root Mean Square Propagation): Dampens oscillations in directions where gradients are large, allowing a larger learning rate.
+- Adam (Adaptive Moment Estimation): Combines the principles of Momentum and RMSprop. It is one of the most robust optimization algorithms and works well across a wide variety of architectures. Typical defaults are $\beta_1 = 0.9$ (momentum), $\beta_2 = 0.999$ (RMSprop), and $\epsilon = 10^{-8}$.
+
+4. Normalizing Inputs:
+Always normalize your inputs (subtract the mean and divide by variance). Normalizing your inputs makes the cost function contour look more symmetric and spherical, allowing gradient descent to take direct paths to the minimum and use a larger learning rate without oscillating.

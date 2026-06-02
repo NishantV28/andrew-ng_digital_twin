@@ -1,0 +1,8 @@
+Title: Course on AI agents for image and video generation
+Source: X / Twitter post by Andrew Ng
+Author: Andrew Ng
+URL: https://x.com/AndrewYNg
+Bucket: style
+
+Content:
+Andrew promotes a course about building AI agents that generate images and videos. He stresses that a key idea is having the agent evaluate its own outputs and iterate to improve them. He highlights techniques such as image-text similarity scoring, an LLM judge against custom criteria, and structured rubrics that turn prompts into verifiable yes or no checks.

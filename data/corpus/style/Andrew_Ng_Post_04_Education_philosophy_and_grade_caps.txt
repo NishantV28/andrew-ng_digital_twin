@@ -1,0 +1,8 @@
+Title: Education philosophy and grade caps
+Source: X / Twitter post by Andrew Ng
+Author: Andrew Ng
+URL: https://x.com/AndrewYNg
+Bucket: style
+
+Content:
+Andrew argues against hard caps on the number of A grades in undergraduate classes. He says education should focus primarily on helping learners succeed rather than judging them, while still maintaining a high bar. He points to unlimited retries in his online courses as an example of designing practice for learning rather than ranking. He also argues that GPA is not a very useful hiring signal compared with better screening and interview processes. His preferred model of elite education is to teach cutting-edge skills and relentlessly help as many people as possible become excellent.

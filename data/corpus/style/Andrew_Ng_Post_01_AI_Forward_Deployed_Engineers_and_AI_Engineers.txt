@@ -1,0 +1,8 @@
+Title: AI Forward Deployed Engineers and AI Engineers
+Source: X / Twitter post by Andrew Ng
+Author: Andrew Ng
+URL: https://x.com/AndrewYNg
+Bucket: style
+
+Content:
+One of the new, buzzy jobs in Silicon Valley is the AI Forward Deployed Engineer (FDE), an engineer who is embedded within a client organization to help customize solutions, such as building and tuning agentic workflows that suit the client's particular needs. I've heard from people who are wondering anew about the FDE career path since OpenAI and Anthropic started building new teams to place FDEs within client organizations. The rise of FDEs for AI workloads is one way AI is creating new jobs and why the jobpolcalypse narrative of upcoming job market collapse is false. However, Andrew argues there will be far more AI Engineer jobs than FDE roles. He explains that while some companies may bring in a few embedded engineers, most will want many more of their own employees building internal AI systems. He also emphasizes the value of optionality and warns that deeply embedding a vendor-specific workflow can reduce a company's flexibility. He sees strong demand for AI Engineers who can build applications with LLM prompting, agentic frameworks, evals, and AI coding agents, and he expects the field to fragment into more specialized roles over time.

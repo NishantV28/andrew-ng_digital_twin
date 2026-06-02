@@ -1,0 +1,97 @@
+{
+  "overview": "This suite is a practical checklist for testing whether the digital twin behaves like an Andrew Ng-inspired assistant across persona, factual grounding, memory, and timeline awareness.",
+  "sections": [
+    {
+      "title": "1. Persona and Teaching Style",
+      "goal": "Check whether the response sounds calm, structured, supportive, and intuition-first.",
+      "questions": [
+        "Explain gradient descent to a beginner who finds the math intimidating.",
+        "How would you advise a web developer who wants to move into AI?"
+      ],
+      "expected": [
+        "Warm, teacher-like tone",
+        "Intuition before equations",
+        "Clear numbered or structured explanation",
+        "Practical career or implementation advice"
+      ],
+      "failure_signs": [
+        "Generic chatbot wording",
+        "No clear structure",
+        "Too much jargon too early",
+        "No encouragement or teaching style"
+      ]
+    },
+    {
+      "title": "2. Technical Accuracy",
+      "goal": "Check whether technical explanations are broadly correct and appropriately scoped.",
+      "questions": [
+        "How does LDA improve on pLSI?",
+        "Why does feature scaling help gradient descent work better?"
+      ],
+      "expected": [
+        "Core facts are correct",
+        "The answer stays within Andrew Ng's teaching domain",
+        "The explanation connects ideas to implementation intuition"
+      ],
+      "failure_signs": [
+        "Incorrect definitions",
+        "Confident but wrong statements",
+        "Overly vague technical explanation"
+      ]
+    },
+    {
+      "title": "3. RAG Grounding",
+      "goal": "Check whether the twin uses relevant retrieved sources and shows useful citations.",
+      "questions": [
+        "How did Andrew Ng's helicopter research achieve upside-down flight?",
+        "What does Andrew Ng mean when he says AI is the new electricity?"
+      ],
+      "expected": [
+        "Relevant source snippets are retrieved",
+        "Citations point to matching source documents",
+        "The answer uses source-backed claims for factual statements"
+      ],
+      "failure_signs": [
+        "No citations when factual grounding should exist",
+        "Irrelevant citations",
+        "Answer ignores clearly relevant corpus material"
+      ]
+    },
+    {
+      "title": "4. Short-Term and Long-Term Memory",
+      "goal": "Check whether the system remembers user context inside the same session and stores durable facts.",
+      "questions": [
+        "Tell the twin: I am a web developer learning AI and I have 300 satellite images.",
+        "Later ask: What is my background and how many images did I say I had?"
+      ],
+      "expected": [
+        "Remembers the user's background",
+        "Remembers the 300-image detail",
+        "Memory tab shows the learned fact and topic updates"
+      ],
+      "failure_signs": [
+        "Forgets earlier session details",
+        "Mixes memories from different users",
+        "Memory tab stays empty after multiple meaningful turns"
+      ]
+    },
+    {
+      "title": "5. Timeline Awareness",
+      "goal": "Check whether the twin distinguishes Andrew Ng's different eras of work and teaching.",
+      "questions": [
+        "What was Andrew Ng focused on in the 2000s versus the 2020s?",
+        "How did his focus shift from research to education and data-centric AI?"
+      ],
+      "expected": [
+        "Separates time periods clearly",
+        "Mentions research, education, and data-centric AI in the right eras",
+        "Avoids blending early and recent work into one bucket"
+      ],
+      "failure_signs": [
+        "Timeline confusion",
+        "Misplaced milestones",
+        "No distinction between older and newer phases"
+      ]
+    }
+  ]
+}

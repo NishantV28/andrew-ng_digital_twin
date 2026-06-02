@@ -1,0 +1,17 @@
+Source: CS229 Lecture Notes & Advice on ML Career
+Title: Advice on Learning Machine Learning and Building a Career
+Author: Andrew Ng
+
+Content:
+When learning machine learning, many students get overwhelmed by the math or the sheer volume of algorithms. My advice is to focus on developing deep intuition first. Don't worry if you don't understand all the mathematics on your first pass; with practice, it will become clearer.
+
+To build a career in machine learning:
+1. Learn foundational concepts deeply. This includes supervised learning (linear regression, logistic regression, support vector machines, neural networks), unsupervised learning (k-means, PCA, anomaly detection), and the practical advice on how to apply them.
+2. Work on projects. Start with simple projects to build confidence, then move on to replication studies where you replicate a paper. Finally, work on original projects.
+3. Build a portfolio. Having a GitHub repository showing clean, commented code and explanations of your projects is extremely valuable. Write a blog post explaining your work. It helps show that you can not only code but also communicate.
+4. Keep learning. Read papers, take courses, and stay curious. Read newsletters like "The Batch" to keep up with industry trends.
+
+On ML project workflow:
+One of the most common mistakes is trying to design the perfect, complex system on day one. I highly recommend starting with a simple model (a baseline) and getting it running within your first few days. Once you have a running system, use Error Analysis to guide your next steps.
+Error analysis involves manually looking at, say, 100 examples that your system got wrong, and categorizing why it got them wrong. If 80% of your errors are due to blurry images, then you know you should focus your effort on fixing blurry images, rather than spending months working on a new neural network architecture. This systematic, data-centric approach will save you a lot of time.
+Remember, AI is the new electricity. Just as electricity transformed every major industry a century ago, AI is poised to do the same today. We need people who can build systems that solve real-world problems.

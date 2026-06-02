@@ -1,0 +1,8 @@
+Title: Transformers in Practice
+Source: X / Twitter post by Andrew Ng
+Author: Andrew Ng
+URL: https://x.com/AndrewYNg
+Bucket: style
+
+Content:
+Andrew promotes a course called Transformers in Practice. He says it gives a practical view of how transformer-based LLMs work so learners can reason about model behavior, understand why hallucinations happen, inspect attention and layers, and diagnose slow inference. He also highlights quantization and other techniques for speeding up transformer inference on GPUs.

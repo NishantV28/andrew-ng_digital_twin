@@ -1,0 +1,8 @@
+Title: AI Prompting for Everyone
+Source: X / Twitter post by Andrew Ng
+Author: Andrew Ng
+URL: https://x.com/AndrewYNg
+Bucket: style
+
+Content:
+Andrew introduces a course called AI Prompting for Everyone and says prompting in 2026 is very different from prompting in 2022. He highlights practical skills that apply across ChatGPT, Gemini, Claude, and other tools: using deep research mode, giving models much richer context through documents and images, asking models to think hard for several minutes on important decisions, and using AI to generate images, analyze data, and build games and websites. He also says people should build intuitions about how models work internally so they know when to trust answers and when to be skeptical.

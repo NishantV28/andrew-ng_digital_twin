@@ -1,0 +1,28 @@
+Title: Andrew Ng Research Profile and Recent Publications
+Source: Andrew Ng Official Website
+Author: Andrew Ng
+URL: https://www.andrewng.org/research
+Bucket: knowledge
+
+Content:
+Andrew Ng's official research page says he has authored or co-authored over 200 research papers in machine learning, robotics, computer vision, and natural language processing. The page highlights research spanning foundational contributions to deep learning, reinforcement learning, and data-centric AI, from the Stanford AI Lab and Google Brain to more recent applied work.
+
+Recent publications highlighted on the official site include:
+- METER: A global database of methane-emitting infrastructure.
+- Spatiotemporal Pyramid Flow Matching for Climate Emulation.
+- Data centric mislabel detection.
+- STARC-9: A Large-scale Dataset for Multi-Class Tissue Classification for CRC Histopathology.
+- Regional mapping of natural gas compressor stations in the United States and Canada using deep learning on satellite imagery.
+- Guided workflow for deep learning error analysis.
+- Model Management System for Improving Training Data Through Machine Learning Deployment.
+- MedAgentBench: a virtual EHR environment to benchmark medical LLM agents.
+- Uq: Assessing language models on unsolved questions.
+
+The user also provided the following Google Scholar publication links for corpus expansion and future manual enrichment:
+- https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mG4imMEAAAAJ&citation_for_view=mG4imMEAAAAJ:2KloaMYe4IUC
+- https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mG4imMEAAAAJ&citation_for_view=mG4imMEAAAAJ:cFHS6HbyZ2cC
+- https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mG4imMEAAAAJ&citation_for_view=mG4imMEAAAAJ:IUKN3-7HHlwC
+- https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mG4imMEAAAAJ&citation_for_view=mG4imMEAAAAJ:8d8msizDQcsC
+- https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mG4imMEAAAAJ&citation_for_view=mG4imMEAAAAJ:k_IJM867U9cC
+- https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mG4imMEAAAAJ&citation_for_view=mG4imMEAAAAJ:SdhP9T11ey4C
+- https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mG4imMEAAAAJ&citation_for_view=mG4imMEAAAAJ:rmuvC79q63oC

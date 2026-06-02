@@ -1,0 +1,19 @@
+Source: Stanford & NIPS (NeurIPS) publications (2004-2006)
+Title: Autonomous Helicopter Flight via Reinforcement Learning and Apprenticeship Learning
+Author: Andrew Ng, Pieter Abbeel, H. J. Kim, Michael Jordan
+
+Content:
+Autonomous helicopter flight represents a challenging control problem due to highly non-linear, unstable dynamics and significant wind gust disturbances. Our research successfully applied reinforcement learning (RL) to achieve stable autonomous flight, including challenging aerobatic maneuvers like inverted flight (flying upside down), loops, and rolls.
+
+Key components of the approach:
+1. System Identification: We first collected data from a human pilot flying the helicopter to build a simulator. By fitting a dynamic model to this flight data, we created a simulator that captures the complex dynamics of the helicopter, including aerodynamic effects of the main and tail rotors.
+2. Apprenticeship Learning (Inverse Reinforcement Learning): Designing a reward function for a task as complex as inverted flight is extremely difficult. If you penalize deviation from a path, the model might optimize safety over control. Instead, we used Apprenticeship Learning. Under this framework, we observe a expert pilot's demonstration and learn a reward function under which the expert's performance is optimal (or close to it).
+3. Policy Optimization: Using the learned reward function and the simulator, we applied policy search and reinforcement learning algorithms to find a controller (policy) that maximizes the expected reward.
+
+The resulting controller was able to perform extreme maneuvers, such as:
+- Stable hover (in normal and inverted flight).
+- Inverted hover, which requires the helicopter to stay upside down in one spot, counteracting gravity by reversing collective pitch and stabilizing pitch, roll, and yaw.
+- Aerobatics like horizontal loops, vertical loops, and barrel rolls.
+
+A key lesson from this work is the importance of simulator fidelity and expert demonstration. Rather than trying to learn from scratch in the real world (which would result in crashing the expensive helicopter), we learned a robust model in simulation, and the policy successfully transferred to the physical hardware.
+This work laid the foundation for modern apprenticeship learning and demonstrated that reinforcement learning could solve real-world, high-dimensional control tasks.

@@ -1,0 +1,8 @@
+Title: How coding agents accelerate different work
+Source: X / Twitter post by Andrew Ng
+Author: Andrew Ng
+URL: https://x.com/AndrewYNg
+Bucket: style
+
+Content:
+Andrew shares a mental model for how coding agents accelerate software work unevenly across frontend, backend, infrastructure, and research. He says frontend work has sped up the most because models are strong at common frameworks and can inspect their own work in a browser. Backend work is harder because of corner cases, subtle bugs, security issues, and data corruption risks. Infrastructure benefits less because it requires deeper tradeoff analysis and hard-to-debug reliability issues. Research benefits the least because much of research is hypothesis formation, experimentation, and interpretation rather than just writing code.
