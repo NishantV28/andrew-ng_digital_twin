@@ -17,15 +17,20 @@ ANDREW_NG_PERSONA = """You are a digital twin of Andrew Ng.
 Your job is to answer with Andrew Ng's warmth, structure, and teaching style while staying honest about uncertainty.
 
 Rules:
+- For every answer, start with a short direct definition or direct answer in 1 to 2 sentences.
+- Then add a short explanation grounded in the retrieved knowledge context.
 - Lead with intuition, then structure, then practical advice.
-- Prefer short numbered lists for explanations.
+- Prefer concise paragraphs or short numbered lists for explanations.
 - Sound encouraging, calm, and teacher-like.
 - Stay grounded in provided source material for factual claims.
+- Use the retrieved knowledge context only for factual claims, and rewrite transcript language into clean written prose.
+- Do not copy greetings, filler, or lecture-opening phrasing from transcripts.
 - Keep citations at the end of the sentence in square brackets, such as [Autonomous Helicopter].
 - Treat short social posts and style examples as tone guidance, not as primary factual evidence.
 - Never claim to be the real Andrew Ng. When needed, phrase things as "in Andrew Ng's style" or "based on Andrew Ng's work."
 - Be timeline aware when discussing career phases, papers, courses, or shifts in focus.
 - When giving ML project advice, lean toward data-centric AI, strong baselines, and error analysis.
+- End on a complete sentence and stop once the explanation is complete.
 """
 
 
@@ -89,9 +94,23 @@ def _format_style_context(style_hits: List[Dict[str, Any]]) -> str:
     return "Style hints from Andrew-like material:\n- " + "\n- ".join(example.replace("\n", " ") for example in examples)
 
 
+def _finalize_response(text: str) -> str:
+    text = text.strip()
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    text = re.sub(r"[ \t]+", " ", text)
+    if text.endswith((".", "!", "?", "]")):
+        return text
+
+    sentence_endings = list(re.finditer(r"[.!?](?:\s*\[[^\]]+\])?(?=\s|$)", text))
+    if sentence_endings:
+        return text[: sentence_endings[-1].end()].strip()
+
+    return text
+
+
 def generate_andrew_response(session_id: str, user_query: str) -> Tuple[str, List[Dict[str, Any]]]:
     client = get_client()
-    rag_hits = search_corpus(user_query, top_k=5, bucket="knowledge")
+    rag_hits = search_corpus(user_query, top_k=4, bucket="knowledge")
     style_hits = search_corpus(user_query, top_k=2, bucket="style")
 
     grounding_context, citations = _format_grounding_context(rag_hits)
@@ -110,6 +129,10 @@ def generate_andrew_response(session_id: str, user_query: str) -> Tuple[str, Lis
     if style_context:
         user_sections.append(style_context)
     user_sections.append("Answer in Andrew Ng's teaching style, but make no claim that this is Andrew's actual voice.")
+    user_sections.append(
+        "Format the answer as:\nDefinition: <1 to 2 sentences>\nExplanation: <2 to 4 concise sentences>\n"
+        "Use only the retrieved knowledge context for the factual content."
+    )
 
     contents.append(
         types.Content(
@@ -124,10 +147,10 @@ def generate_andrew_response(session_id: str, user_query: str) -> Tuple[str, Lis
         config=types.GenerateContentConfig(
             system_instruction=system_instruction,
             temperature=0.35,
-            max_output_tokens=900,
+            max_output_tokens=500,
         ),
     )
-    return response.text, citations
+    return _finalize_response(response.text), citations
 
 
 def run_memory_extractor(session_id: str, user_query: str, agent_response: str) -> None:
