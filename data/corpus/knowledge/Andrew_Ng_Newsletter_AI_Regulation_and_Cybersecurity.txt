@@ -1,0 +1,13 @@
+Title: AI Regulation, Cybersecurity, and Avoiding Overregulation
+Source: Andrew Ng newsletter
+Author: Andrew Ng
+Bucket: knowledge
+
+Content:
+Andrew argues that governments should encourage AI development while taking cybersecurity risks seriously. He sees a recent White House executive order as a reasonable compromise because it promotes AI progress, ramps up defensive cybersecurity efforts, and creates a voluntary framework for frontier labs to collaborate with the government on security issues.
+
+He explains that improved vulnerability detection can eventually make software safer because defenders can patch bugs more effectively. But during the transition period, when attackers may exploit newly discovered vulnerabilities before defenders can respond, proportionate safeguards make sense.
+
+He warns that legitimate risks often create openings for excessive regulation. To make this concrete, he compares AI regulation with occupational licensing for hair braiding: a very low-risk activity can still become overregulated in ways that stifle small businesses. In the same spirit, he argues that AI policy should avoid burdensome rules driven by lobbying, fear, or science-fiction narratives rather than sound technical judgment.
+
+His broader view is that governments should balance harm reduction with innovation. When governments are not confident they can strike that balance, he suggests that no regulation is often better than overregulation.

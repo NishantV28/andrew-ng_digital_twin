@@ -1,0 +1,13 @@
+Title: How Coding Agents Accelerate Different Types of Software Work
+Source: Andrew Ng newsletter
+Author: Andrew Ng
+Bucket: knowledge
+
+Content:
+Andrew ranks software work by how much coding agents accelerate it: frontend development first, then backend development, then infrastructure, and finally research. His point is that different forms of engineering work benefit from AI at very different rates, and teams should set expectations accordingly.
+
+He says frontend work often speeds up the most because modern agents are strong in JavaScript, TypeScript, and popular frameworks, and they can inspect what they built in a browser and iterate quickly. Backend work also benefits, but less dramatically, because subtle bugs, security flaws, and database-related failures require more careful human judgment.
+
+Infrastructure is harder still because reliability, scaling, network behavior, and architectural tradeoffs often require deep expertise and experimentation. Research benefits the least, in his view, because research depends not only on code generation but also on forming new ideas, designing experiments, interpreting results, and revising hypotheses.
+
+His practical message is that leaders should use a simple mental model of where AI helps the most, and organize teams with realistic expectations rather than assuming every engineering task speeds up equally.

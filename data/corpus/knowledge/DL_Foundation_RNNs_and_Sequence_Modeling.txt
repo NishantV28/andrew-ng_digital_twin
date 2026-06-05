@@ -1,0 +1,14 @@
+Title: Recurrent Neural Networks and Sequence Modeling
+Source: Dive into Deep Learning
+Author: Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola
+URL: https://www.d2l.ai/chapter_recurrent-neural-networks/
+Bucket: knowledge
+
+Content:
+Recurrent Neural Networks, or RNNs, are models for sequential data such as text, speech, time series, and event streams. Their defining idea is recurrence: information from earlier time steps is passed forward through a hidden state, so the model can condition current predictions on prior context.
+
+If we unroll an RNN across time, we can view it as a deep network whose parameters are shared at every step. This sharing makes the model applicable to variable-length sequences and gives it a simple inductive bias for temporal structure. Training is done with backpropagation through time, which extends the backpropagation idea across sequence steps.
+
+Classic RNNs struggle with long-range dependencies because gradients can vanish or explode as they move through many steps. Gated architectures such as LSTMs and GRUs were introduced to manage memory more effectively by learning when to keep, update, or forget information.
+
+Even though transformers now dominate many language tasks, RNNs remain conceptually important because they introduced the modern deep learning view of sequence modeling and still appear in some time-series and resource-constrained settings.

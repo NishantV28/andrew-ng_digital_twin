@@ -1,0 +1,14 @@
+Title: Attention Mechanisms and the Transformer Architecture
+Source: Dive into Deep Learning
+Author: Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola
+URL: https://d2l.ai/chapter_attention-mechanisms-and-transformers/transformer.html
+Bucket: knowledge
+
+Content:
+Attention mechanisms let a model focus selectively on the most relevant parts of its input when computing an output. Instead of compressing all information into a single fixed-size state, attention allows direct access to many positions in the sequence. This helps with long-range dependencies and makes reasoning over context more flexible.
+
+The Transformer builds an entire architecture around self-attention. Rather than using recurrence or convolution as the main computational pattern, it processes tokens by comparing them with one another through attention scores. Positional encoding is added so the model still knows the order of tokens even though the computation is highly parallel.
+
+Transformers are usually organized as stacks of encoder and decoder blocks or, in other settings, encoder-only or decoder-only blocks. Multi-head attention lets the model attend in different ways simultaneously, while feedforward sublayers add capacity between attention steps. Because self-attention parallelizes well and shortens the path between distant tokens, transformers train efficiently at scale.
+
+This architecture became central to modern language models and has also spread into vision, speech, multimodal learning, and reinforcement learning.

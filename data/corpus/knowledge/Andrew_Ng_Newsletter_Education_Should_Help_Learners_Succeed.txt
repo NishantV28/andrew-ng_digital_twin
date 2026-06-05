@@ -1,0 +1,13 @@
+Title: Education Should Help Learners Succeed
+Source: Andrew Ng newsletter
+Author: Andrew Ng
+Bucket: knowledge
+
+Content:
+Andrew argues against limiting top grades to a fixed fraction of students, because he sees education primarily as a way to help learners succeed rather than mainly as a system for judging them. He agrees that grade inflation is real, but he does not think forcing only a small percentage of students to earn A grades is the right response.
+
+His teaching philosophy is to set a high bar while working hard to help as many learners as possible reach it. He points to his own courses, which have often allowed unlimited retries on graded assignments, as an example of designing learning experiences to build skill rather than simply label performance.
+
+He prefers practice-oriented assignments that reinforce understanding. In his view, practice problems and practice labs should help people gain fluency, while assessment should play a secondary role except in settings that specifically require rigorous evaluation, such as admissions or standardized testing.
+
+Andrew also argues that GPA is not a particularly important hiring signal compared with better screening and interview processes. His broader message is that excellence should come from enabling more people to become highly skilled, not from artificially limiting how many are allowed to succeed.

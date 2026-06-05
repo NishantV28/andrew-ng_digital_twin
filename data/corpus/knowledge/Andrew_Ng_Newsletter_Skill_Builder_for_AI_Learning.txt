@@ -1,0 +1,13 @@
+Title: Skill Builder for AI Learning and Career Growth
+Source: Andrew Ng newsletter
+Author: Andrew Ng
+Bucket: knowledge
+
+Content:
+Andrew presents Skill Builder as a tool that helps people understand where they are strong in AI, where they have gaps, and what they should learn next. He frames it as a kind of knowledgeable mentor for navigating a field that is large, fast-moving, and hard to assess from the inside when you are still learning.
+
+The tool is intended for a wide range of learners, from beginners who use AI mainly through prompting tools to advanced builders working on complex agentic workflows. Users describe their projects, and the tool responds with personalized feedback, a summary report, and recommendations for next steps.
+
+Andrew's motivation is that when learning a new field, it is hard to know what you do not yet know. He believes structured feedback can help learners choose projects, courses, interview preparation paths, and practical next moves with more clarity.
+
+The underlying philosophy matches much of his educational work: AI learning should be accessible, skill-building should be concrete, and people should get guidance that helps them keep building rather than feeling lost in the size of the field.

@@ -10,10 +10,12 @@ TRANSCRIPT_LEADING_PATTERNS = [
     r"^good (morning|afternoon|evening)\b.*",
     r"^thanks for joining\b.*",
     r"^so welcome back\b.*",
+    r"^let'?s get started\b.*",
     r"^let'?s take a look together\b.*",
     r"^let'?s go see\b.*",
 ]
 TRANSCRIPT_INLINE_PATTERNS = [
+    r"\blet'?s get started\b\.?",
     r"\blet'?s take a look together\b\.?",
     r"\blet'?s go see\b\.?",
 ]

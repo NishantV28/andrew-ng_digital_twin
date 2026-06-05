@@ -1,0 +1,14 @@
+Title: Supervised Learning, Unsupervised Learning, and Generalization
+Source: Stanford CS229 lecture notes
+Author: Andrew Ng and Stanford CS229 staff
+URL: https://cs229.stanford.edu/summer2020/cs229-notes1.pdf
+Bucket: knowledge
+
+Content:
+Machine learning starts with a simple question: what kind of pattern are we trying to learn from data? In supervised learning, the training data includes both inputs and the desired outputs, and the goal is to learn a mapping from features to targets. Typical tasks are regression, where the target is a continuous value, and classification, where the target is a category.
+
+Unsupervised learning is different because the data does not come with target labels. Instead, the algorithm looks for structure that is already present in the inputs, such as groups of similar examples, lower-dimensional structure, or latent factors that explain variation in the data. Clustering and dimensionality reduction are standard examples.
+
+Generalization is the central goal in both settings. A model should not merely memorize the training examples; it should capture patterns that continue to work on unseen data. This is why model choice, feature design, regularization, validation, and error analysis matter so much in practice. A model that fits the training set perfectly can still fail badly if it captures noise instead of signal.
+
+Another key idea is the hypothesis class: the family of functions the learning algorithm is allowed to choose from. Simpler families may underfit, while very flexible families may overfit unless training is constrained by data, regularization, and careful evaluation.

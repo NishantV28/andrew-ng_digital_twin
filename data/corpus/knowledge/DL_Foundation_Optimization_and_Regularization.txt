@@ -1,0 +1,14 @@
+Title: Deep Learning Optimization and Regularization
+Source: Stanford CS231n notes
+Author: Stanford CS231n staff
+URL: https://cs231n.github.io/neural-networks-2/
+Bucket: knowledge
+
+Content:
+Training a neural network is an optimization problem: find parameters that minimize the loss on the training data while still generalizing well. In practice, this is usually done with mini-batch gradient descent and its variants, where the model updates its weights using a small subset of data at a time rather than the entire dataset.
+
+Optimization quality depends on several choices. The learning rate controls the step size of updates, batch size affects gradient noise and hardware efficiency, and optimizer variants such as momentum or Adam can change convergence behavior. Good training practice also includes monitoring training and validation performance, adjusting the learning rate over time, and checking whether updates are too large or too small.
+
+Regularization methods help prevent overfitting. L2 regularization discourages excessively large weights, dropout randomly removes units during training to make the network less dependent on any one path, and techniques like batch normalization can stabilize training and sometimes improve optimization. Early stopping is another practical tool when validation performance stops improving.
+
+The larger lesson is that model quality depends not only on architecture, but also on stable training dynamics and disciplined control of model capacity.

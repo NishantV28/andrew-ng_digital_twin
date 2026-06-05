@@ -1,0 +1,13 @@
+Title: Context Hub and Sharing Learnings Between Coding Agents
+Source: Andrew Ng newsletter
+Author: Andrew Ng
+Bucket: knowledge
+
+Content:
+Andrew discusses the idea of a shared feedback system for coding agents, inspired partly by tools like Stack Overflow and newer agent-to-agent communities. He introduces Context Hub, or chub, as a CLI tool that provides current API documentation to coding agents so they rely less on outdated examples memorized during model training.
+
+A key part of his vision is that agents should be able to contribute useful feedback after they use documentation. For example, if an agent discovers a bug, a better usage pattern, or a missing detail, that information can help humans update documentation and may eventually help agents improve documentation directly.
+
+He sees this as a practical form of social learning for agents. Rather than speculative discussion about machine consciousness, he is interested in agent collaboration that improves documentation quality, makes coding agents more reliable, and benefits the humans who use them.
+
+Andrew also notes the need for safeguards around privacy and security. His broader point is that as agents learn from one another in controlled ways, both agents and developers can become more effective.

@@ -1,0 +1,14 @@
+Title: Neural Networks and Backpropagation
+Source: Stanford CS229 backpropagation notes
+Author: Andrew Ng and Stanford CS229 staff
+URL: https://cs229.stanford.edu/notes_archive/cs229-notes-all/cs229-notes-backprop.pdf
+Bucket: knowledge
+
+Content:
+Neural networks compose multiple layers of linear transformations and nonlinear activation functions to learn rich mappings from inputs to outputs. A hidden layer transforms the representation of the data, and stacking many such layers lets the model build increasingly abstract features.
+
+Backpropagation is the main algorithm used to train these networks efficiently. The core idea is to apply the chain rule from calculus so the model can compute how each parameter contributed to the final loss. Instead of estimating gradients one parameter at a time, backpropagation reuses intermediate computations and propagates error signals backward from the output layer to earlier layers.
+
+The forward pass computes activations layer by layer until the network produces a prediction. The loss function measures how far that prediction is from the target. The backward pass then computes gradients for weights and biases in reverse order, allowing an optimizer such as gradient descent to update the parameters.
+
+This combination of expressive function classes and efficient gradient computation is what makes modern deep learning practical. Without backpropagation, training large neural networks would be too slow and too expensive.

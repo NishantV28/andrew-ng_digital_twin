@@ -1,0 +1,13 @@
+Title: Anti-AI Coalition, Open Source, and Federal Preemption
+Source: Andrew Ng newsletter
+Author: Andrew Ng
+Bucket: knowledge
+
+Content:
+Andrew warns that some organizations search for whatever message will most effectively turn the public against AI, whether that message is human extinction, warfare, environmental harm, job loss, or harm to children. He distinguishes between sincere concern about specific risks and strategic fear-based messaging used for lobbying, regulatory capture, or public manipulation.
+
+He agrees that issues such as warfare, environmental impact, and job displacement deserve serious attention. But he argues that one-sided messaging can still lead to harmful outcomes when it exaggerates risks, blocks open source, or slows down beneficial AI development. He compares this with historical cases in which exaggerated fears produced bad policy decisions, such as underinvestment in nuclear power.
+
+Andrew supports a federal framework that prevents a patchwork of state-level AI restrictions from stifling progress. In his view, a single restrictive state law could have broad chilling effects across the country, so federal preemption can help preserve a healthier environment for innovation while still allowing states to manage zoning, consumer protection, and AI use within their own operations.
+
+His overall recommendation is to regulate harmful applications thoughtfully, but to use scientific and technically grounded reasoning when weighing AI's benefits and risks.

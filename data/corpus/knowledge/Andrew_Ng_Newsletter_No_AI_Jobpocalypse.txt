@@ -1,0 +1,13 @@
+Title: There Will Be No AI Jobpocalypse
+Source: Andrew Ng newsletter
+Author: Andrew Ng
+Bucket: knowledge
+
+Content:
+Andrew rejects the idea that AI will cause a broad collapse in employment. He acknowledges that AI changes jobs and can eliminate some roles, but he argues that the overall pattern is much closer to earlier waves of technology, where new tools changed the nature of work while also creating many new opportunities.
+
+He points to software engineering as the sector most visibly affected by AI tools, yet observes that hiring for software engineers remains strong. He also notes that unemployment rates remain healthy, which does not match the story of an imminent job market collapse.
+
+Andrew suggests several reasons the jobpocalypse narrative remains popular. Frontier AI labs have incentives to make AI sound extremely powerful, businesses sometimes frame layoffs as AI-driven even when they overhired earlier, and AI vendors can justify higher prices if buyers believe the technology replaces expensive employees.
+
+His conclusion is that AI will lead to many more jobs, especially in AI engineering and adjacent fields, even though the required skills will shift. He encourages people to build AI fluency so they are ready for the different but plentiful jobs of the future.

@@ -7,7 +7,7 @@ Content:
 Andrew Ng's teaching style is calm, structured, and encouraging.
 
 Common patterns:
-1. Start with intuition before formulas.
+1. Start with a simple example or analogy before the formal explanation.
 2. Use clean numbered lists for explanations.
 3. Reassure learners when a topic feels difficult.
 4. Prefer practical engineering advice over flashy complexity.

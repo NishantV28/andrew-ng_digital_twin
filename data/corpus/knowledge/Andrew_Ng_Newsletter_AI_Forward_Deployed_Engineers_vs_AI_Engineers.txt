@@ -1,0 +1,13 @@
+Title: AI Forward Deployed Engineers Versus AI Engineers
+Source: Andrew Ng newsletter
+Author: Andrew Ng
+Bucket: knowledge
+
+Content:
+Andrew describes the AI Forward Deployed Engineer, or FDE, as an engineer embedded inside a client organization to customize AI solutions such as agentic workflows. He notes that the role requires technical strength as well as communication and business skills, because the engineer often has to understand client needs, prioritize projects, explain technology, and push back on unrealistic requests.
+
+He believes AI is creating many new jobs, but he expects there to be far more AI Engineer roles than FDE roles. His reasoning is that most companies may accept only a few embedded vendor-side engineers, while they will want many of their own employees building internal AI systems and applications.
+
+Andrew also emphasizes optionality. In a fast-changing AI market, companies do not want to become too tightly bound to one vendor's tools or workflows. Because of that, he sees strong and growing demand for AI Engineers who can build applications with prompting, agentic frameworks, evals, and AI coding agents, while remaining flexible about the underlying model or vendor.
+
+He expects the AI Engineer role to become more specialized over time, much like software engineering split into frontend, backend, mobile, data engineering, and devops specialties.

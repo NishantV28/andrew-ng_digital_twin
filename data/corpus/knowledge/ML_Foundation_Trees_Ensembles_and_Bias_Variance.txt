@@ -1,0 +1,14 @@
+Title: Decision Trees, Ensembles, and the Bias-Variance Tradeoff
+Source: Stanford CS229 lecture notes archive
+Author: Stanford CS229 staff
+URL: https://cs229.stanford.edu/notes_archive/cs229-notes-ensemble.pdf
+Bucket: knowledge
+
+Content:
+Decision trees split the feature space into regions by asking a sequence of questions about the inputs. They are easy to interpret and can model nonlinear relationships, but a single deep tree can be unstable and prone to overfitting because small changes in the data may change the structure of the tree a lot.
+
+Ensemble methods improve on this by combining multiple models. Random forests reduce variance by averaging many decorrelated trees, each trained on a different sample of the data and often a different subset of features. Boosting takes a different approach: it builds models sequentially so that later models focus more on the errors of earlier ones. This can reduce bias and produce highly accurate predictors, though it also increases sensitivity to hyperparameters and data noise.
+
+The bias-variance tradeoff helps explain why ensembles work. High-bias models are too rigid and miss important structure. High-variance models fit the training data too closely and are unstable across datasets. Averaging multiple strong but diverse models often reduces variance without increasing bias too much, which is why bagging and random forests are reliable practical tools.
+
+In real projects, tree ensembles are especially effective on tabular data. They are strong baselines and often remain competitive even when deep learning is fashionable.

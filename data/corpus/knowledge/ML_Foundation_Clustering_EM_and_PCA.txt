@@ -1,0 +1,14 @@
+Title: Clustering, Expectation-Maximization, and Principal Components Analysis
+Source: Stanford CS229 course materials
+Author: Andrew Ng and Stanford CS229 staff
+URL: https://cs229.stanford.edu/materials.html-withcomments
+Bucket: knowledge
+
+Content:
+Clustering is an unsupervised learning task in which the goal is to group similar examples together without labeled targets. K-means is one of the simplest and most common clustering algorithms. It alternates between assigning each example to the nearest cluster center and updating each center to the mean of the points assigned to it. This makes it fast and intuitive, though it depends on the choice of k, initialization, and the geometry of the data.
+
+Expectation-Maximization, or EM, generalizes this alternating pattern to latent-variable probabilistic models. In the E-step, the algorithm estimates hidden assignments or responsibilities using the current parameters. In the M-step, it updates the parameters to better match those estimated assignments. Mixture models, especially Gaussian mixtures, are standard examples.
+
+Principal Components Analysis, or PCA, is a dimensionality reduction method. It finds orthogonal directions in the data that capture the largest variance and projects the data onto those directions. PCA can compress data, denoise features, and help visualize high-dimensional structure, but it is linear and preserves variance rather than necessarily the task-relevant signal.
+
+Together, clustering, EM, and PCA are foundational because they show how machine learning can discover structure even when labels are unavailable.

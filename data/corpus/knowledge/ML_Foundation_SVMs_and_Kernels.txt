@@ -1,0 +1,14 @@
+Title: Support Vector Machines and Kernel Methods
+Source: Stanford CS229 course materials
+Author: Andrew Ng and Stanford CS229 staff
+URL: https://cs229.stanford.edu/materials.html-withcomments
+Bucket: knowledge
+
+Content:
+Support Vector Machines, or SVMs, are margin-based classifiers. Instead of only trying to separate classes correctly, an SVM tries to separate them with the largest possible margin, meaning the decision boundary is placed to leave as much room as possible between the classes. This often improves robustness and generalization.
+
+For linearly separable data, the max-margin idea is straightforward: choose the separating hyperplane with the widest margin. For noisier datasets, the soft-margin formulation allows some violations while penalizing them through a regularization parameter. This creates a tradeoff between fitting the training data closely and maintaining a wider, more stable decision boundary.
+
+Kernel methods extend SVMs beyond linear boundaries. The key idea is to compare examples through a kernel function that behaves like an inner product in a higher-dimensional feature space, without explicitly constructing that space. This kernel trick allows nonlinear decision boundaries while keeping the optimization manageable.
+
+In practice, SVMs are strong classical models for medium-sized datasets, especially when features are well designed. Their main limitations are computational cost on large datasets and reduced convenience compared with modern end-to-end deep learning systems.

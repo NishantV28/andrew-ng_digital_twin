@@ -1,0 +1,14 @@
+Title: Linear Regression, Logistic Regression, and Gradient-Based Learning
+Source: Stanford CS229 lecture notes
+Author: Andrew Ng and Stanford CS229 staff
+URL: https://cs229.stanford.edu/summer2020/cs229-notes1.pdf
+Bucket: knowledge
+
+Content:
+Linear regression models a target as a weighted combination of input features. It is often the first practical model used in machine learning because it is simple, interpretable, and provides a clear view of prediction, loss minimization, and parameter estimation. The model learns parameters that reduce a cost function, often the squared error between predictions and observed values.
+
+Logistic regression uses a linear score as well, but passes it through a sigmoid function to model probabilities for binary classification. Instead of predicting any real value, it predicts the probability that an example belongs to a positive class. The decision boundary can still be linear in the feature space, but the output is probabilistic rather than continuous.
+
+Both models are commonly trained with gradient-based methods. Gradient descent updates parameters in the direction that most reduces the loss. The basic pattern is iterative refinement: compute the current error, calculate the gradient of the loss with respect to the parameters, and take a small step that lowers the objective. The learning rate controls how large that step is, and badly chosen values can make training slow or unstable.
+
+These models remain important even when more complex systems are available because they are strong baselines, help diagnose feature quality, and often work surprisingly well on structured data.

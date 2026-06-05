@@ -1,0 +1,14 @@
+Title: Convolutional Neural Networks and Transfer Learning
+Source: Stanford CS231n notes
+Author: Stanford CS231n staff
+URL: https://cs231n.github.io/convolutional-networks/
+Bucket: knowledge
+
+Content:
+Convolutional Neural Networks, or CNNs, are neural networks designed for image-like inputs. They exploit spatial structure by using local receptive fields, shared weights, and hierarchical feature extraction. Early layers often detect simple patterns such as edges and textures, while deeper layers capture more complex shapes and semantic parts.
+
+Compared with fully connected networks, CNNs use far fewer parameters on images because the same learned filters are reused across locations. This makes them more efficient and better aligned with the structure of visual data. Standard CNN pipelines combine convolution, nonlinear activation, and pooling or downsampling, followed by task-specific output layers.
+
+Transfer learning is one of the most important practical ideas in deep learning for vision. Instead of training a network from scratch, practitioners often start with a model pretrained on a large dataset such as ImageNet. The pretrained model can be used as a fixed feature extractor or fine-tuned for the new task. This usually works well because lower and middle layers often learn broadly useful visual features.
+
+In practice, pretrained CNNs are strong defaults when labeled data is limited and fast iteration matters.

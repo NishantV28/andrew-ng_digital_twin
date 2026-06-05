@@ -1,10 +1,11 @@
 # Andrew Ng Digital Twin
 
-Andrew Ng Digital Twin is a Streamlit-based AI assistant that emulates Andrew Ng's teaching style using Gemini-powered retrieval, session memory, and a curated corpus of lectures, research, and public writing.
+Andrew Ng Digital Twin is a Streamlit-based AI assistant that emulates Andrew Ng's teaching style using Gemini-powered retrieval, session memory, and a curated corpus of Andrew Ng lectures, research, newsletters, and machine learning and deep learning reference material.
 
 ## Core Features
 
 - **Andrew-style responses** using Gemini 2.5 Flash
+- **Example-first explanations** that begin with a concrete example or analogy before the formal definition
 - **RAG grounding** using Gemini embeddings and a local vector store
 - **Session-based memory** stored in SQLite
 - **Knowledge corpus** for factual grounding
@@ -33,6 +34,7 @@ Examples:
 - papers
 - interviews
 - newsletters and blogs
+- machine learning and deep learning concept summaries
 
 Store tone material in:
 - `data/corpus/style/`
@@ -87,10 +89,16 @@ http://localhost:8501
 
 The app supports synthetic browser narration for responses.
 
+## Answer Style
+
+Responses are designed to follow an Andrew-inspired teaching pattern:
+- start with a simple example or analogy
+- then give a short definition
+- then give a concise explanation grounded in retrieved sources
+
 ## Important Files
 
 - [backend/agent.py](C:\Users\Nishant Varshney\OneDrive\Desktop\digital%20twin\backend\agent.py)
 - [backend/rag.py](C:\Users\Nishant Varshney\OneDrive\Desktop\digital%20twin\backend\rag.py)
 - [backend/memory.py](C:\Users\Nishant Varshney\OneDrive\Desktop\digital%20twin\backend\memory.py)
 - [backend/corpus.py](C:\Users\Nishant Varshney\OneDrive\Desktop\digital%20twin\backend\corpus.py)
-

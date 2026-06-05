@@ -20,10 +20,11 @@ class TestRAGPipeline(unittest.TestCase):
         self.assertTrue(any(doc["bucket"] == "knowledge" for doc in docs))
 
     def test_transcript_cleaning_removes_generic_openers(self):
-        text = "Welcome back to the course. Hello everyone. Gradient descent is an algorithm for minimizing a cost function. It updates parameters step by step."
+        text = "Welcome back to the course. Hello everyone. Let's get started. Gradient descent is an algorithm for minimizing a cost function. It updates parameters step by step."
         cleaned = clean_transcript_text(text)
         self.assertNotIn("Welcome back", cleaned)
         self.assertNotIn("Hello everyone", cleaned)
+        self.assertNotIn("Let's get started", cleaned)
         self.assertIn("Gradient descent is an algorithm", cleaned)
 
 
